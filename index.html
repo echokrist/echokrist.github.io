@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>echokrist - Portfolio</title>
+  <meta name="description" content="Welcome to echokrist's portfolio and projects hub.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>echokrist</h1>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <hr />
+      <p>
+        Exploring the intersection of code, business, and philosophy. Lifelong learner and problem solver.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <hr />
+      <ul>
+        <li>
+          <h3><a href="https://github.com/echokrist/Firi-SDK-Kotlin">Firi SDK</a></h3>
+          <p>A Kotlin SDK written in Kotlinfor the Firi, a Norwegian crypto exchange.</p>
+        </li>
+        <li>
+          <h3><a href="https://github.com/echokrist/gloriouseggroll-downloader">Glorious Eggroll Downloader</a></h3>
+          <p>A tool written in Go that downloads the latest version of the <a href="https://github.com/GloriousEggroll/proton-ge-custom">Glorious Eggroll</a>, a customized Steam proton build to enhance Linux gaming performance.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <hr />
+      <p>Feel free to reach out via <a href="mailto:echokrist@pm.me">email</a> or connect with me on <a href="https://github.com/echokrist">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p></p>
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.querySelector('footer p').innerHTML = `&copy; ${currentYear} echokrist`;
+    </script>
+  </footer>
+</body>
+</html>
