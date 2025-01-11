@@ -1,0 +1,51 @@
+
+# Basic settings
+title: echokrist
+description: A simple site built with Jekyll.
+baseurl: "" # The subpath of your site, e.g., "/blog". Leave empty for root.
+url: "https://echokrist.github.io" # Your site's URL
+
+# Author information
+author:
+  name: echokrist
+  email: echokrist@pm.me
+
+# Build settings
+markdown: kramdown
+theme: minima # Default theme; change if using a custom theme
+plugins:
+  - jekyll-feed # For RSS feeds
+  - jekyll-seo-tag # For SEO optimization
+
+# Permalinks
+permalink: /:categories/:title/ # Customize your URL structure
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Pagination (if needed)
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/"
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Defaults (optional)
+defaults:
+  - scope:
+      path: "" # Applies to all files
+    values:
+      layout: default # Default layout for files
+
+# Social (optional, for Jekyll SEO and other plugins)
+social_links:
+  youtube: echokrist
+  instagram: echokrist
+  twitter: echokristt
+  github: echokrist
